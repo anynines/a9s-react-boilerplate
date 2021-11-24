@@ -1,8 +1,16 @@
-# Getting Started with Create React App
+# 👋 a9s React Boilerplate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the anynines React Boilerplate, developed to give you a well prepare playground for any React frontend you might need. It comes with these things prepared:
 
-## Available Scripts
+- Build upon **Create React App (CRA)**
+- Fully typed with **TypeScript**
+- Formatting rules applied by **ESLint & Prettier** on save
+- Comprehensive UI Components from **[a9s Design System](https://npm.io/package/@anynines/a9s-design-system)**
+- Design System is based on **[Material UI](https://mui.com/)** and designed in **[Figma](https://www.figma.com/file/FquPS1rVsEsTOPxR8SCw04/%F0%9F%8E%A8-Design-System?node-id=383%3A3829)**
+
+---
+
+## ⚡️ Scripts
 
 In the project directory, you can run:
 
@@ -39,7 +47,9 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+---
+
+## 🎓 Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
