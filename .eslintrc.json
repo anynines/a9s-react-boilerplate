@@ -6,11 +6,8 @@
   "extends": [
     "plugin:react/recommended",
     "airbnb",
+    "plugin:react-hooks/recommended",
     "plugin:@typescript-eslint/recommended",
-    "react-hooks",
-    "prettier/prettier",
-    "prettier/react",
-    "prettier/@typescript-eslint",
     "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
@@ -30,6 +27,8 @@
   "rules": {
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
+    "react/jsx-no-constructed-context-values": "off",
+    "import/no-extraneous-dependencies": "off",
     "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
     "import/extensions": [
       "error",
@@ -50,6 +49,22 @@
     "react-hooks/exhaustive-deps": "warn",
     "import/prefer-default-export": "off",
     "react/prop-types": "off",
-    "func-names": ["warn", "as-needed"]
+    "func-names": ["warn", "as-needed"],
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "function-expression"
+      }
+    ],
+    "semi": ["error", "never"],
+    "quotes": ["error", "single"],
+    "sort-imports": [
+      "error",
+      {
+        "ignoreCase": true,
+        "ignoreDeclarationSort": true
+      }
+    ]
   }
 }

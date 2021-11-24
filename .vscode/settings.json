@@ -1,8 +1,14 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "eslint.alwaysShowStatus": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    }
   },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    }
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
