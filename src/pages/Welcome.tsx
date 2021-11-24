@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Typography } from '@anynines/a9s-design-system'
+import { Button, Container, Typography } from '@anynines/a9s-design-system'
 import Base from '../layouts/Base'
 
 const Welcome: React.FC = () => {
@@ -7,19 +7,41 @@ const Welcome: React.FC = () => {
     <Base>
       <Container sx={{ mt: 8 }}>
         <Typography gutterBottom variant="h1">
-          👋 Welcome dear Devs
+          👋 a9s React Boilerplate
         </Typography>
         <Typography variant="subtitle1">
-          This is your playground to be productive from scratch.{' '}
+          Welcome to the anynines React Boilerplate, developed to give you a
+          well prepare playground for any React frontend you might need. It
+          comes with these things prepared:
         </Typography>
-        <Typography variant="subtitle1">
-          Add: Reference to Mui, to Design System, to Figma, to Workflow (How to
-          reach out to the team?)
-        </Typography>
-        <Typography variant="subtitle1">FAQ? Theming</Typography>
-        <Typography variant="subtitle1">
-          Add some base structure (Authland, Adminland, Table)
-        </Typography>
+        <ul>
+          <li>
+            <Typography variant="subtitle1">
+              Build upon Create React App (CRA)
+            </Typography>
+          </li>
+          <li>
+            <Typography variant="subtitle1">
+              Fully typed with TypeScript
+            </Typography>
+          </li>
+          <li>
+            <Typography variant="subtitle1">
+              Formatting rules applied by ESLint and Prettier on save
+            </Typography>
+          </li>
+          <li>
+            <Typography variant="subtitle1">
+              Comprehensive UI Components from a9s Design System
+            </Typography>
+          </li>
+          <li>
+            <Typography variant="subtitle1">
+              Design System is based on Material UI and designed in Figma
+            </Typography>
+          </li>
+        </ul>
+        <Button>Click me</Button>
       </Container>
     </Base>
   )
