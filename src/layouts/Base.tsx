@@ -1,12 +1,13 @@
+import { Box } from '@anynines/a9s-design-system'
 import React from 'react'
 import Header from '../components/Header'
 
 const Base: React.FC = ({ children }) => {
   return (
-    <div>
+    <Box pt={9}>
       <Header />
       {children}
-    </div>
+    </Box>
   )
 }
 

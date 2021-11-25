@@ -1,11 +1,11 @@
 import React from 'react'
-import Welcome from './pages/Welcome'
+import Router from './Router'
 import ThemeProvider from './Theme'
 
 const App: React.FC = () => {
   return (
     <ThemeProvider>
-      <Welcome />
+      <Router />
     </ThemeProvider>
   )
 }
