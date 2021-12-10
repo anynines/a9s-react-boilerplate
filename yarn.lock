@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@anynines/a9s-design-system@^0.2.53":
-  version "0.2.53"
-  resolved "https://registry.yarnpkg.com/@anynines/a9s-design-system/-/a9s-design-system-0.2.53.tgz#aa4b9731e15dd2184bc30077cae26ba6756f076b"
-  integrity sha512-IsRC1E8i9YK5ww3M23Ikbs4UGoveoLxpYdkzBWGGhWO63rwR5l5PRJ8VTIWFhSU+jUSdSz/6wMwr9nawFUpKFQ==
+"@anynines/a9s-design-system@^0.2.70":
+  version "0.2.70"
+  resolved "https://registry.yarnpkg.com/@anynines/a9s-design-system/-/a9s-design-system-0.2.70.tgz#ecbe316bdedf9de52ea2fc3a152153d7f5a07e46"
+  integrity sha512-vKjCnOa7BzHwCjEpe39aG+bQI5iZIm1VXA1e07Y2F9SpCfqD8CEtvAGyR/SqvAi4w1S0yfSdweCKvRuhZy/QTQ==
   dependencies:
     "@emotion/react" "^11.6.0"
     "@emotion/styled" "^11.6.0"
