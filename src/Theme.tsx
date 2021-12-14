@@ -1,6 +1,10 @@
 import React from 'react'
 import { ThemeProvider as MuiThemeProvider } from '@anynines/a9s-design-system'
 import { CssBaseline } from '@mui/material'
+import {
+  anyDark,
+  anyLight,
+} from '@avarteqgmbh/happy-token-system/brands/anynines'
 
 export interface ModeContextProps {
   dark: boolean
@@ -25,7 +29,7 @@ const ThemeProvider: React.FC = ({ children }) => {
 
   return (
     <ModeContext.Provider value={providerValue}>
-      <MuiThemeProvider theme={dark ? 'anynines-dark' : 'anynines'}>
+      <MuiThemeProvider theme={dark ? anyDark : anyLight}>
         <CssBaseline />
         {children}
       </MuiThemeProvider>
