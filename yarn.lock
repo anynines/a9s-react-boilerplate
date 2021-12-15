@@ -34,10 +34,10 @@
     react-syntax-highlighter "^15.4.3"
     web-vitals "^1.0.1"
 
-"@avarteqgmbh/happy-token-system@1.0.5":
-  version "1.0.5"
-  resolved "https://npm.pkg.github.com/download/@avarteqgmbh/happy-token-system/1.0.5/c6e1922e37c8a89f40f84a56040b5ef1f1828133a65c14ad56008f1b95f66563#1d9be37c0489341cb6cf9830d5fcae06a1e092b2"
-  integrity sha512-rz/hEp5rPftBXvsNe7aV9SrAUhZA/uQcgnLou+TgHV9br9cScaUQ2SOe7cuPJxslJXk/99tQckepiWFyLjgM9A==
+"@avarteqgmbh/happy-token-system@1.0.8":
+  version "1.0.8"
+  resolved "https://npm.pkg.github.com/download/@avarteqgmbh/happy-token-system/1.0.8/438eea1f68946dad679702f2e48f7f6a5e46a95ff0ccd22f72edd0db6438c5ad#9fc5cefab673d27ecbf5c9ba26aa2e004275aed9"
+  integrity sha512-uFdZZlnvLc+aWxk2cbobfFfAAfHDHXMmkRPN/mEK/7Kc4glUPltEiOiutU4W8IJU2TwMzORDKOEcEgbFYNPcBg==
 
 "@babel/code-frame@7.10.4":
   version "7.10.4"

@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@anynines/a9s-design-system": "^0.2.70",
-    "@avarteqgmbh/happy-token-system": "1.0.5",
+    "@avarteqgmbh/happy-token-system": "1.0.8",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
